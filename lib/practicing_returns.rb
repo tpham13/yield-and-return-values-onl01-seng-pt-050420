@@ -1,4 +1,4 @@
-
+required 'pry'
 
 def hello(array)
   i = 0
@@ -8,4 +8,5 @@ def hello(array)
   end
 end
 
+binding.pry
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}"}
